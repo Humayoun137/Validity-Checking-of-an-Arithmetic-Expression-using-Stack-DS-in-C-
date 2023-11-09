@@ -1,10 +1,2 @@
-# Validity-Checking-of-an-Arithmetic-Expression-using-Stack-DS-in-C-
-Validating the syntax of an arithmetic expression is a fundamental task in computer science, often accomplished using a data structure called a stack. The stack data structure follows the Last In, First Out (LIFO) principle, making it particularly useful for checking the validity of expressions with nested parentheses, such as arithmetic expressions.
-When validating an arithmetic expression using a stack, you can employ the following algorithm:
-Initialize an empty stack: Create an empty stack to store opening parentheses, braces, and brackets encountered in the expression.
-Iterate through the expression: Examine each character in the arithmetic expression from left to right.
-If the character is an opening parenthesis, brace, or bracket: Push it onto the stack. This operation indicates that an opening symbol has been encountered.
-If the character is a closing parenthesis, brace, or bracket: Check if the stack is empty. If it is, the expression is not valid as there is no corresponding opening symbol for the current closing symbol. If the stack is not empty, pop an element from the stack and compare it with the current closing symbol. If they do not match, the expression is not valid. Repeat this process until all symbols have been processed.
-After processing the entire expression: Check if the stack is empty. If it is, the expression is valid as all opening symbols had corresponding closing symbols. If the stack is not empty, the expression is not valid as there are unmatched opening symbols.
-This algorithm efficiently validates the syntax of arithmetic expressions using the stack data structure. By employing dynamic programming techniques, you can optimize the process further, improving the time complexity of the algorithm. However, dynamic programming might be an overcomplication for this problem since the stack-based approach itself is quite efficient and straightforward for checking the validity of arithmetic expressions.
+
 
